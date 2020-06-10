@@ -1,18 +1,14 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+# Homepage  
 
-# WTF Webpack Starter Kit 
+Moja strona domowa.
 
-Simple toolkit for your static websites development.
+## Jak to odpalić?
 
-## How to use it?
+Najpierw zrób `npm install`, a później masz następujące opcje:
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+- `npm run start` - runs development mode
 
-## Available scripts
+- `npm run build` - runs build process for production
 
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+- `npm run publish` - runs build process and publish the page using `gh-pages` branch
 
