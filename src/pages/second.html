@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+ 
+  </head>
+
+  <body>
+      <header class="header-site">
+        <h1 class="header-site__title">Kinia uczy i bawi</h1>
+        <nav class="header-site__navigation navigation--js" >
+         <a href="first.html" class="header-site__navigation-homepage">Strona główna </a>
+        <a href="second.html" class="header-site__navigation-link">HTML</a>
+        </nav>
+        <button class="hamburger hamburger--js">Menu</button>
+      </header>
+      <main class="main">
+        <header class="article-header">
+   
+          <h2 class="article-header__title">HTML</h2>
+        </header>
+
+        <section class="section">
+          <article class="section__article">
+            <h3 class="section__title">Czym jest HTML?</h3>
+            <p class="section__content">
+              <b>HTML</b> (ang. <i>HyperText Markup Language</i>) – hipertekstowy
+              język znaczników, wykorzystywany do tworzenia dokumentów
+              hipertekstowych.
+            </p>
+          </article>
+        </section>
+
+        <section class="section">
+          <article class="section__article">
+            <h3 class="section__title">Opis wstępny</h3>
+            <p class="section__content">
+              HTML pozwala opisać strukturę informacji zawartych wewnątrz strony
+              internetowej, nadając odpowiednie znaczenie semantyczne
+              poszczególnym fragmentom tekstu – formując hiperłącza, akapity,
+              nagłówki, listy – oraz osadza w tekście dokumentu obiekty plikowe
+              np. multimedia bądź elementy baz danych np. interaktywne formularze
+              danych.
+              <br />
+              HTML umożliwia określenie wyglądu dokumentu w przeglądarce
+              internetowej. Do szczegółowego opisu formatowania akapitów,
+              nagłówków, użytych czcionek i kolorów, zalecane jest wykorzystywanie
+              kaskadowych arkuszy stylów.
+            </p>
+          </article>
+          <article class="section__article">
+            <h3 class="section__title">Komponenty języka HTML</h3>
+            <p class="section__content">Język HTML składa się z kilku kluczowych komponentów:</p>
+            <ul class="section__content-list">
+              <li>
+                <a class="section__content-links"  href="#znaczniki"> znaczników </a> (i ich
+                <a class="section__content-links" href="#atrybuty"> atrybutów),</a>
+              </li>
+              <li><a class="section__content-links" href="#typyDanych"> typów danych,</a>></li>
+              <li><a class="section__content-links" href="#referencjeZnakowe">referencji znakowych,</a></li>
+              <li><a class="section__content-links" href="#encje">odwołań w postaci encji,</a></li>
+              <li><a class="section__content-links" href="#deklaracja"> deklaracji typu dokumentu.</a></li>
+            </ul>
+            <h4 class="section__subtitle">Znaczniki (tagi)</h4>
+            <p class="section__content">
+              Tag (znacznik) – znak lub słowo kluczowe przypisane do określonego
+              fragmentu informacji, na przykład tekstu lub pliku multimedialnego.
+              Tagi są powszechnie stosowane w bazach danych oraz przy opisywaniu
+              informacji tekstowej.
+            </p>
+            <h4 class="section__subtitle">Atrybuty</h4>
+            <p class="section__content">
+              Większość atrybutów elementów składa się z par nazwa-wartość,
+              rozdzielonych znakiem "=", zawartych w znaczniku otwierającym
+              elementu, po jego nazwie. Wartość może być zawarta w pojedynczych
+              lub podwójnych cudzysłowach lub bez nich (o ile wartość nie zawiera
+              spacji). W przeciwieństwie do atrybutów w postaci par nazwa-wartość
+              istnieją atrybuty mające wpływ na element poprzez samo ich zawarcie
+              w znaczniku otwierającym[26] (np. ismap atrybut dla znacznika
+              img[30]).
+              <br />
+              Atrybut id nadaje elementowi unikatowy identyfikator. Może on zostać
+              użyty przez arkusze stylów do sprecyzowania wyglądu tego elementu
+              lub przez skrypty np. do zmiany jego zawartości. Atrybut class służy
+              do sklasyfikowania elementów dla celów prezentacyjnych.
+            </p>
+            <h4 class="section__subtitle">Encje i referencje znakowe</h4>
+            <p class="section__content">
+              Począwszy od wersji 4.0, HTML definiuje listę 252 encji,
+              pozwalających na zapisanie określonych znaków za pomocą specjalnych
+              stałych[33].
+            </p>
+
+            <h4 class="section__subtitle" >Typy danych</h4>
+            <p class="section__content">
+              HTML definiuje kilka typów danych, wprowadzanych m.in. jako wartości
+              elementów lub atrybutów. Są to m.in. skrypty (script data), dane
+              arkuszy stylów (stylesheet data), identyfikatory, nazwy, adresy URI,
+              liczby, jednostki miary długości, języki, deskryptory mediów,
+              kolory, kodowania znaków, data i czas, itp.[34]
+            </p>
+
+            <h4 class="section__subtitle">Deklaracja typu dokumentu</h4>
+            <p class="section__content">
+              Aby uaktywnić definicję typu dokumentu (DTD) do celów poprawnej
+              walidacji utworzonej strony, a także w celu uniknięcia działania
+              przeglądarek w trybie quirks, dokument powinien rozpoczynać się
+              deklaracją typu dokumentu (nieformalnie DOCTYPE). DTD, do którego
+              odwołuje się sekcja DOCTYPE, zawiera gramatykę i zasady
+              wykorzystywania znaczników w dokumencie podporządkowanemu
+              określonemu DTD. Większość graficznych przeglądarek korzysta z
+              sekcji DOCTYPE, a także innych dodatkowych informacji, warunkując
+              tryb renderowania danej strony.
+              <br />
+              Powyższa deklaracja odwołuje się do wersji Strict DTD specyfikacji
+              HTML 4.01, która nie posiada znaczników prezentacyjnych, takich jak"
+              font>, wykorzystując w tym celu kaskadowe arkusze stylów oraz
+              znaczniki span> i div>. Walidatory kodu odczytują DTD w celu
+              poprawnego sparsowania dokumentu i przeprowadzenia jego walidacji.
+              <br />
+              Dodatkowo HTML 4.01 obsługuje jeszcze wersje Transitional i
+              Frameset. Wersja Transitional została stworzona do wykorzystywania w
+              potrzebie używania elementów i atrybutów prezentacyjnych, natomiast
+              wersja Frameset obsługuje dokumenty wykorzystujące mechanizm
+              ramek[35].
+            </p>
+          </article>
+        </section >
+              <div class="additional">
+          <a class="additional__link" href="https://pl.wikipedia.org/wiki/HTML#cite_note-30"> Źródło </a>
+        </div>
+      </main>
+      <article class="about-me">
+        <img class="about-me__picture" src="../assets/img/38277e5ee582c2820a5987b9ef53dc60.jpg" alt="Słodki kotek" />
+        <p class="about-me__description"> Cześć, jestem Kinioszka i lubię placki oraz Wojcia </p>
+        </article>
+      <footer class="footer">
+        Tak naprawdę to jestem najewiększym pidździakiem na świecie.
+      </footer>
+    
+  </body> 
+</html>
